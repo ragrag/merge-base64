@@ -2,7 +2,7 @@
 
 > Merge multiple base64 images into a single image, for merging Buffer, Local or Jimp images please check (https://github.com/preco21/merge-img)
 
-`merge-images-base64` merges given base64 images into a single image in right order.This module Utilizes Jimp and also based on (https://github.com/preco21/merge-img).
+`merge-images-base64` merges given base64 images into a single image in right order.This module Utilizes Jimp and is also based on (https://github.com/preco21/merge-img).
 
 ![figure](https://rawgit.com/preco21/merge-img/master/media/figure.png)
 
