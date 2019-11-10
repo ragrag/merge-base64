@@ -15,7 +15,7 @@ $ npm install merge-images-base64
 ## Usage
 
 ```javascript
-const mergeImages = require('./index');
+const mergeImages = require('merge-images-base64');
 const base64Image = `iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAIAAABbzbuTAAAAAXNSR0IArs4c6QAAAARnQU1B
   AACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAZSURBVDhPY/hPIhjVQAwY1UAMGPoa/v8HALkfLP4gBjPYAAAAAElFTkSuQmCC`;
 const mergedImage = await mergeImages([base64Image, base64Image]);
