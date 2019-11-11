@@ -1,8 +1,8 @@
-# merge-images-base64
+# merge-base64
 
 > Merge multiple base64 images into a single image, for merging Buffer, Local or Jimp images please check (https://github.com/preco21/merge-img)
 
-`merge-images-base64` merges given base64 images into a single image in right order.This module Utilizes Jimp and is also based on (https://github.com/preco21/merge-img).
+`merge-base64` merges given base64 images into a single image in right order.This module Utilizes Jimp and is also based on (https://github.com/preco21/merge-img).
 
 ![figure](https://rawgit.com/preco21/merge-img/master/media/figure.png)
 
@@ -15,7 +15,7 @@ $ npm install merge-base64
 ## Usage
 
 ```javascript
-const mergeImages = require('merge-images-base64');
+const mergeImages = require('merge-base64');
 const base64Image = `iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAIAAABbzbuTAAAAAXNSR0IArs4c6QAAAARnQU1B
   AACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAZSURBVDhPY/hPIhjVQAwY1UAMGPoa/v8HALkfLP4gBjPYAAAAAElFTkSuQmCC`;
 const mergedImage = await mergeImages([base64Image, base64Image]);

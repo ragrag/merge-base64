@@ -1,6 +1,6 @@
 {
   "name": "merge-base64",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Merge multiple images into a single image",
   "author": "Raggi https://github.com/ragrag",
   "main": "index.js",
