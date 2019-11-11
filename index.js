@@ -125,7 +125,7 @@ module.exports = function mergeImages(
       baseImage.composite(img, px + left, py + top);
     }
 
-    return baseImage.getBase64Async(baseImage.getMIME());
+    return baseImage.getBase64Async(Jimp.MIME_JPEG);
     // return baseImage;
   });
 };
