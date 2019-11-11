@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-$ npm install merge-images-base64
+$ npm install merge-base64
 ```
 
 ## Usage
