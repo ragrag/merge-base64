@@ -9,6 +9,7 @@ module.exports = function mergeImages(
     color = 0x00000000,
     align = 'start',
     offset = 0,
+    isPng = false,
     margin
   } = {}
 ) {
@@ -125,7 +126,7 @@ module.exports = function mergeImages(
       baseImage.composite(img, px + left, py + top);
     }
 
-    return baseImage.getBase64Async(Jimp.MIME_JPEG);
+    return baseImage.getBase64Async(isPng ? Jimp.MIME_PNG : Jimp.MIME_JPEG);
     // return baseImage;
   });
 };
