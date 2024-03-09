@@ -28,7 +28,7 @@ const mergedImage = await mergeImages([base64Image, base64Image]);
 - `images` Array of (Base64 Images) - List of images to concat.
 - `options` Object (optional)
   - `direction` Boolean - Direction of the merged image. If this value is `true`, the images will be merged vertically (column). Otherwise, the images will be merged horizontally (row). Default is `false`.
-  - `color` Number (hex) - Default background color represented by RGBA hex value. Default is `0x00000000`.
+  - `color` Number | String (hex) - Default background color represented by RGBA hex value. Default is `0x00000000`.
   - `align` String - Aligning of given images. If the images are not all the same size, images will be sorted to largest image. Possible values are `start`, `center` and `end`. Default is `start`.
   - `offset` Number - Offset in pixels between each image. Default is `0`.
   - `margin` (Number | String | Object) - Margin of the result image. If `Number` or `String` is passed, it will be considered as [standard css shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) (e.g. '40 40 0 10'). An `Object` entry can have following options:
