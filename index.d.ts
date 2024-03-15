@@ -10,6 +10,6 @@ declare module 'merge-base64' {
   
     function mergeImages(images: string[], options?: MergeOptions): Promise<string>;
   
-    export = mergeImages;
+    export { mergeImages };
   }
   
